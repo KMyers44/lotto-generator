@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.header {
+    text-align: center;
+}
+
+.wrapper {
+    width: 60%;
+    margin: 0 auto;
+}
+
+h1 {
+    padding-top: 35px;
+    font-size: 50px;
+}
+
+h4 {
+    padding-bottom: 35px;
+    font-size: 20px;
+}
+
+img {
+    width: 145px;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+.powerball img {
+    width: 210px;
+}
+
+button {
+    float: left;
+    height: 40px;
+    width: 145px;
+    margin: 10px 100px;
+    border-radius: 8px;
+    font-size: 13px;
+    background-color: rgb(174, 174, 174);
+    border: none;
+}
+
+.pball button {
+    margin-left: 35px;
+}
+
+button:hover {
+    background-color: rgb(194, 193, 193);
+    box-shadow: 0px 0px 4px 2px rgb(161, 161, 161);
+}
+
+.ball_container {
+    padding: 0 15px;
+}
+
+.powerball,
+.megaMillions,
+.hotLotto      {
+    height: 190px;
+    padding: 25px;
+    margin-bottom: 15px;
+    border-radius: 13px;
+    background-color: rgb(193, 223, 245);
+}
+
+.megaMillions,
+.hotLotto       {
+    margin-top: 15px;
+}
+
+.lottoName {
+    font-size: 35px;
+    font-weight: bold;
+    float: left;
+}
+
+.whitePowerBall,
+.whiteMegaBall,
+.redPowerBall,
+.yellowMegaBall,
+.whiteHotBall,
+.orangeHotBall   {
+    float: left;
+    width: 85px;
+    height: 80px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    margin: 25px 12px 50px;
+    text-align: center;
+    font-size: 45px;
+    color: rgb(77, 76, 76);
+    line-height: 1.7;
+}
+
+.redPowerBall  {
+    background-color: rgb(228, 20, 54);
+}
+
+.yellowMegaBall {
+    background-color: #FAD634;
+}
+
+.orangeHotBall {
+    background-color: rgb(245, 130, 31);
+}
+
+.clear {
+    clear: both;
+}
